@@ -54,3 +54,6 @@ IOS/www/
 *.ipr
 *.iws
 .idea/
+
+#built output folder
+out/
