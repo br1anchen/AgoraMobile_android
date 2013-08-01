@@ -104,5 +104,6 @@
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
         <plugin name="cookieManager" value="no.uninett.agora.AgoraMobile.CookieManager"/>
+        <plugin name="ExternalFileUtil" value="no.uninett.agora.AgoraMobile.ExternalFileUtil"/>
     </plugins>
 </widget>
