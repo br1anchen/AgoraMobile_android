@@ -80,7 +80,7 @@ public class ExternalFileUtil extends CordovaPlugin {
                     }else if(path.contains(".sh")){
                         //script files
                         intent = new Intent(Intent.ACTION_VIEW);
-                        intent.setDataAndType(uri, "application/x-sh");
+                        intent.setDataAndType(uri, "text/plain");
                     }else if(path.contains(".html") || path.contains(".htm")){
                         //html files
                         intent = new Intent(Intent.ACTION_VIEW);
