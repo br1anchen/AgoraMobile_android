@@ -18,16 +18,16 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "io.cordova.helloCordova"
-        version   = "2.0.0">
-    <name>Hello Cordova</name>
+        id        = "no.uninett.agora.AgoraMobile"
+        version   = "0.1.0">
+    <name>Agora Mobile</name>
 
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Android Application based on Phonegap framework for UNINETT Agora Service
     </description>
 
-    <author href="http://cordova.io" email="dev@cordova.apache.org">
-        Apache Cordova Team
+    <author href="https://agora.uninett.no" email="bernt.skjemstad@uninett.no">
+        Agora Mobile Team
     </author>
 
     <access origin="*"/>
