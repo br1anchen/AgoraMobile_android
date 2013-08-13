@@ -133,6 +133,10 @@ public class ExternalFileUtil extends CordovaPlugin {
                         //zip files
                         intent = new Intent(Intent.ACTION_VIEW);
                         intent.setDataAndType(uri, "application/zip");
+                    }else if(path.contains(".csv")){
+                        //csv files
+                        intent = new Intent(Intent.ACTION_VIEW);
+                        intent.setDataAndType(uri, "text/csv");
                     }
 
                     //if you want you can also define the intent type for any other file
