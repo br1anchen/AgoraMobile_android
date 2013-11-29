@@ -1,7 +1,6 @@
 package no.uninett.agora.AgoraMobile;
 
 import android.util.Log;
-import android.webkit.CookieSyncManager;
 
 import org.apache.cordova.api.CallbackContext;
 import org.apache.cordova.api.CordovaPlugin;
@@ -28,6 +27,7 @@ public class CookieManager extends CordovaPlugin {
         cordova.getActivity().runOnUiThread(new Runnable() {
             public void run() {
                 android.webkit.CookieManager.getInstance().removeAllCookie();
+                Log.v("AgoraMobilePlugin","deleteCookies success");
                 callbackContext.success("cookies delete natively"); // Thread-safe.
             }
         });

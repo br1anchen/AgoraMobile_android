@@ -19,9 +19,9 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "no.uninett.agora.AgoraMobile"
-        version   = "0.6.0">
+        version   = "0.8.6">
     <name>Agora Mobile</name>
-
+®
     <description>
         Android Application based on Phonegap framework for UNINETT Agora Service
     </description>
@@ -105,5 +105,7 @@
     <plugins>
         <plugin name="cookieManager" value="no.uninett.agora.AgoraMobile.CookieManager"/>
         <plugin name="ExternalFileUtil" value="no.uninett.agora.AgoraMobile.ExternalFileUtil"/>
+        <plugin name="EmailComposer" value="no.uninett.agora.AgoraMobile.EmailComposer" />
+        <plugin name="ApplicationInfo" value="no.uninett.agora.AgoraMobile.AppInfo"/>
     </plugins>
 </widget>
