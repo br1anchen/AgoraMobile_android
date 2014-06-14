@@ -21,7 +21,9 @@ package no.uninett.agora.AgoraMobile;
 
 import android.os.Bundle;
 
-import com.bugsense.trace.BugSenseHandler;
+//import com.bugsense.trace.BugSenseHandler;
+
+import com.crashlytics.android.Crashlytics;
 
 import org.apache.cordova.Config;
 import org.apache.cordova.DroidGap;
@@ -33,7 +35,9 @@ public class AgoraMobile extends DroidGap
     {
         super.onCreate(savedInstanceState);
         // Set by <content src="index.html" /> in config.xml
-        BugSenseHandler.initAndStartSession(AgoraMobile.this, "1091d936");
+        //BugSenseHandler.initAndStartSession(AgoraMobile.this, "1091d936");
+
+        Crashlytics.start(this);
 
         super.setIntegerProperty("splashscreen", R.drawable.splashscreen);
         super.loadUrl(Config.getStartUrl(), 5000);
