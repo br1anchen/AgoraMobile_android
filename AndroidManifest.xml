@@ -18,7 +18,7 @@
        under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:windowSoftInputMode="adjustPan"
-      package="no.uninett.agora.AgoraMobile" android:versionName="1.2.4" android:versionCode="9" android:hardwareAccelerated="true">
+      package="no.uninett.agora.AgoraMobile" android:versionName="1.2.6" android:versionCode="11" android:hardwareAccelerated="true">
     <supports-screens
         android:largeScreens="true"
         android:normalScreens="true"
@@ -37,8 +37,7 @@
 
 
     <application android:icon="@drawable/icon" android:label="Agora Mobile"
-        android:hardwareAccelerated="true"
-        android:debuggable="true">
+        android:hardwareAccelerated="true">
         <activity android:name="AgoraMobile" android:label="Agora Mobile"
                 android:theme="@android:style/Theme.Black.NoTitleBar"
                 android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale">
